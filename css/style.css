@@ -1,19 +1,29 @@
 html {
     box-sizing: border-box;
 }
-    *,
-    *::before,
-    *::after: {
-        box-sizing: inherit;
-    }
-    
+*, 
+*::before, 
+*::after: {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1230px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
 .page {
+    margin: 0;
     font-family: Roboto, sans-serif;
     color: #757575;
     letter-spacing: 0.03em;
     background-color: #E5E5E5;
 }
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -76,11 +86,15 @@ html {
 }
 
 /*заголовок*/
+.hero {
+    text-align: center;
+}
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
@@ -90,6 +104,8 @@ html {
     background-color: #F5F4FA;
 }
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;        
@@ -97,6 +113,8 @@ html {
     color: #212121;
 }
 .section-title-advantages{
+    margin-top: 94px;
+    margin-bottom: 10px;
     font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
@@ -104,16 +122,23 @@ html {
     color: #212121;
 }
 .advantages-description {
-font-size: 14px;
-line-height: 1.71;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .section-title-name {
+    margin-top: 30;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
 }
 .section-profession {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.18px;
     color: #757575;
@@ -169,6 +194,7 @@ line-height: 1.71;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    border-radius: 4px;
 }
     
 .button.primary {
@@ -178,6 +204,7 @@ line-height: 1.71;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button.secondary {
     color: #212121;
