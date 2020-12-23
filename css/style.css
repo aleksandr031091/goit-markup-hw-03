@@ -190,14 +190,15 @@ html {
 
 /*кнопка*/
 .button {
+    border: transparent;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    border-radius: 4px;
-}
-    
+} 
 .button.primary {
+    padding: 10px 32px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -207,6 +208,7 @@ html {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button.secondary {
+    padding: 6px 22px;
     color: #212121;
     background-color: #F5F4FA;
 }
