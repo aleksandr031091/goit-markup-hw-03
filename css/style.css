@@ -11,7 +11,8 @@ html {
     width: 1230px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page {
@@ -19,7 +20,7 @@ html {
     font-family: Roboto, sans-serif;
     color: #757575;
     letter-spacing: 0.03em;
-    background-color: #E5E5E5;
+    background-color: #ffffff;
 }
 .list {
     padding: 0;
@@ -30,8 +31,12 @@ html {
 /*шапка */
 .head {
     background-color: #ffffff;
+    border: 1px solid #ECECEC;
 }
 .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     font-family: Raleway, Oleo Script, sans-serif;
     font-weight: bold;
     font-size: 26px;
@@ -43,15 +48,6 @@ html {
 .capital-head {
     color:  #2196F3;
 }
-.logo-footer {
-    font-family: Raleway, Oleo Script, sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    text-decoration: none;
-}
 .capital-footer {
     color: #2196F3;
 }
@@ -60,6 +56,27 @@ html {
     color:  #2196F3;
 }
 
+.link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.main-nav {
+    display: flex;
+    align-items: baseline;
+}
+.items {
+    display: flex;
+}
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+.site-nav .items:not(:last-child) {
+    margin-right: 50px;
+}
+.site-nav .items:first-child {
+    margin-left: 93px;
+}
 .site-nav .link {
     font-weight: 500;
     font-size: 14px;
@@ -68,11 +85,21 @@ html {
     color: #212121;
     text-decoration: none;
 }
+.site-nav .link.current {
+    color: #2196F3;
+}
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color:  #2196F3;
 }
 
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+.auth-nav .items:not(:last-child) {
+    margin-right: 50px;
+}
 .auth-nav .link {
     color: #757575;
     text-decoration: none;
@@ -81,9 +108,7 @@ html {
 .auth-nav .link:focus {
     color:  #2196F3;
 }
-.site-nav .link.current {
-    color: #2196F3;
-}
+
 
 /*заголовок*/
 .hero {
@@ -92,6 +117,7 @@ html {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -99,22 +125,42 @@ html {
     color: #FFFFFF;
 }
 
-/*секции*/
-.section-tim {
-    background-color: #F5F4FA;
-}
 .section-title {
     margin-top: 0;
     margin-bottom: 50px;
+
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;        
     text-align: center;
     color: #212121;
 }
+.section-link {
+    text-decoration: none;
+}
+
+/*секциz-преимущества*/
+.container-advantages {
+    width: 1230px;
+    padding-top: 94px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-advantages {
+    display: flex;
+}
+.section-advantages .item{
+    width: 270px;
+}
+.section-advantages .item:not(:last-child) {
+    margin-right: 30px;
+}
 .section-title-advantages{
-    margin-top: 94px;
+    margin-top: 0;
     margin-bottom: 10px;
+
     font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
@@ -124,26 +170,103 @@ html {
 .advantages-description {
     margin-top: 0;
     margin-bottom: 0;
+
     font-size: 14px;
     line-height: 1.71;
 }
+
+/*вид-деятельности*/
+.container-direction {
+    width: 1230px;
+    padding-top: 94px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-direction {
+    display: flex;
+}
+.section-direction .items:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*наша-команда*/
+
+.section-tim {
+    background-color: #F5F4FA;
+}
+.container-tim {
+    width: 1230px;
+    padding-top: 94px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-person {
+display: flex;
+}
+.container-tim .items:not(:last-child) {
+    margin-right: 30px;
+}
 .section-title-name {
-    margin-top: 30;
-    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
 }
 .section-profession {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.18px;
     color: #757575;
 }
+
+
+/*партфолио*/
+.container-partfolio {
+    width: 1230px;
+    padding-top: 94px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partfolio-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.partfolio-nav .items:not(:last-child) {
+    margin-right: 8px;
+}
+.partfolio-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.partfolio-box .items {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.partfolio-box .items:nth-child(3n) {
+    margin-right: 0;
+}
+.partfolio-box .items:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+.items-descriptions {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
 .section-title-project {
+    margin-top: 0;
+    margin-bottom: 4px;
+
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -151,27 +274,62 @@ html {
     color: #212121;
 }
 .section-product-project {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-size: 16px;
     line-height: 1.87;
     color: #757575;
 }
-.section-link {
-    text-decoration: none;
-}
 
 /*подвал*/
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    
+}
 .footer-head {
     background-color: #2F303A;
+}
+.logo-footer {
+    margin-bottom: 20px;
 
+    font-family: Raleway, Oleo Script, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.citi-address {
+    display: flex;
+    margin-bottom: 9px;
 }
 .footer-address {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+}
 .footer-head-mail{
+    margin-bottom: 9px;
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
