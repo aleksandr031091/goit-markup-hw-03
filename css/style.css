@@ -8,7 +8,7 @@ html {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
@@ -141,7 +141,7 @@ html {
 
 /*секциz-преимущества*/
 .container-advantages {
-    width: 1230px;
+    width: 1200px;
     padding-top: 94px;
     padding-right: 15px;
     padding-left: 15px;
@@ -177,7 +177,7 @@ html {
 
 /*вид-деятельности*/
 .container-direction {
-    width: 1230px;
+    width: 1200px;
     padding-top: 94px;
     padding-right: 15px;
     padding-bottom: 94px;
@@ -198,7 +198,7 @@ html {
     background-color: #F5F4FA;
 }
 .container-tim {
-    width: 1230px;
+    width: 1200px;
     padding-top: 94px;
     padding-right: 15px;
     padding-bottom: 94px;
@@ -227,7 +227,7 @@ display: flex;
 
 /*партфолио*/
 .container-partfolio {
-    width: 1230px;
+    width: 1200px;
     padding-top: 94px;
     padding-right: 15px;
     padding-bottom: 94px;
@@ -286,7 +286,7 @@ display: flex;
 .container-footer {
     display: flex;
     flex-direction: column;
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
