@@ -62,7 +62,7 @@ html {
 }
 .main-nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 .items {
     display: flex;
