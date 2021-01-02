@@ -143,6 +143,7 @@ html {
 .container-advantages {
     width: 1200px;
     padding-top: 94px;
+    padding-bottom: 94px;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
