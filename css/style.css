@@ -9,7 +9,9 @@ html {
 
 .container {
     width: 1200px;
+    padding-top: 94px;
     padding-right: 15px;
+    padding-bottom: 94px;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +31,16 @@ html {
 }
 
 /*шапка */
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .head {
     background-color: #ffffff;
     border: 1px solid #ECECEC;
@@ -55,16 +67,14 @@ html {
 .logo:focus {
     color:  #2196F3;
 }
-
 .link {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.main-nav {
-    display: flex;
-    align-items: center;
-}
 .items {
+    display: flex;
+}
+.main-nav {
     display: flex;
 }
 .site-nav {
@@ -140,15 +150,6 @@ html {
 }
 
 /*секциz-преимущества*/
-.container-advantages {
-    width: 1200px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .section-advantages {
     display: flex;
 }
@@ -177,15 +178,6 @@ html {
 }
 
 /*вид-деятельности*/
-.container-direction {
-    width: 1200px;
-    padding-top: 94px;
-    padding-right: 15px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .section-direction {
     display: flex;
 }
@@ -197,15 +189,6 @@ html {
 
 .section-tim {
     background-color: #F5F4FA;
-}
-.container-tim {
-    width: 1200px;
-    padding-top: 94px;
-    padding-right: 15px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .container-person {
 display: flex;
@@ -227,15 +210,6 @@ display: flex;
 
 
 /*партфолио*/
-.container-partfolio {
-    width: 1200px;
-    padding-top: 94px;
-    padding-right: 15px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .partfolio-nav {
     display: flex;
     justify-content: center;
