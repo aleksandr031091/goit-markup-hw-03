@@ -69,7 +69,7 @@ img {
 .logo:focus {
     color:  #2196F3;
 }
-.link {
+.site-nav .link {
     padding-top: 32px;
     padding-bottom: 32px;
 }
