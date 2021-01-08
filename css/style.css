@@ -29,6 +29,11 @@ html {
     margin: 0;
     list-style: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /*шапка */
 .container-head {
@@ -190,25 +195,38 @@ html {
 .section-tim {
     background-color: #F5F4FA;
 }
-.container-person {
+.card-person {
 display: flex;
 }
-.container-tim .items:not(:last-child) {
+.card-person .items:not(:last-child) {
     margin-right: 30px;
 }
 .section-title-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
 }
 .section-profession {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     color: #757575;
 }
+.card-person .items {
+    width: 270px;
 
-
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 /*партфолио*/
 .partfolio-nav {
     display: flex;
@@ -225,6 +243,7 @@ display: flex;
 .partfolio-box .items {
     margin-right: 30px;
     margin-bottom: 30px;
+    width: 370px;
 }
 .partfolio-box .items:nth-child(3n) {
     margin-right: 0;
@@ -237,6 +256,11 @@ display: flex;
     padding-right: 24px;
     padding-bottom: 20px;
     padding-left: 24px;
+
+    background: #FFFFFF;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
 .section-title-project {
     margin-top: 0;
