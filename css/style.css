@@ -51,9 +51,6 @@ img {
     border: 1px solid #ECECEC;
 }
 .logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-
     font-family: Raleway, Oleo Script, sans-serif;
     font-weight: bold;
     font-size: 26px;
@@ -81,10 +78,10 @@ img {
 }
 .main-nav {
     display: flex;
+    align-items: center;
 }
 .site-nav {
     display: flex;
-    align-items: center;
 }
 .site-nav .items:not(:last-child) {
     margin-right: 50px;
