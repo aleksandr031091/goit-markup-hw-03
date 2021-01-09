@@ -7,6 +7,27 @@ html {
     box-sizing: inherit;
 }
 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     width: 1200px;
     padding-top: 94px;
@@ -28,11 +49,6 @@ html {
     padding: 0;
     margin: 0;
     list-style: none;
-}
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 /*шапка */
@@ -152,7 +168,7 @@ img {
     display: flex;
 }
 .section-advantages .item{
-    width: 270px;
+    width: calc((100% - 90px) / 4);
 }
 .section-advantages .item:not(:last-child) {
     margin-right: 30px;
@@ -178,6 +194,9 @@ img {
 /*вид-деятельности*/
 .section-direction {
     display: flex;
+}
+.section-direction .items {
+    width: calc((100% - 60px) / 3);
 }
 .section-direction .items:not(:last-child) {
     margin-right: 30px;
@@ -214,7 +233,8 @@ display: flex;
     color: #757575;
 }
 .card-person .items {
-    width: 270px;
+    padding-bottom: 30px;
+    width: calc((100% - 90px) / 4);
 
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -236,7 +256,7 @@ display: flex;
 .partfolio-box .items {
     margin-right: 30px;
     margin-bottom: 30px;
-    width: 370px;
+    width: calc((100% - 60px) / 3);
 }
 .partfolio-box .items:nth-child(3n) {
     margin-right: 0;
