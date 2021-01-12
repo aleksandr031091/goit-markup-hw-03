@@ -30,12 +30,15 @@ html {
 
 .container {
     width: 1200px;
-    padding-top: 94px;
     padding-right: 15px;
-    padding-bottom: 94px;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .page {
@@ -205,6 +208,9 @@ html {
 /*наша-команда*/
 
 .section-tim {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
     background-color: #F5F4FA;
 }
 .card-person {
@@ -301,13 +307,14 @@ display: flex;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
     padding-right: 15px;
-    padding-bottom: 60px;
     padding-left: 15px;
     
 }
 .footer-head {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: #2F303A;
 }
 .logo-footer {
